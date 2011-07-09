@@ -106,6 +106,31 @@ body {
     margin: 0 30px;
 }
 
+#ribbon-description {
+    background: url('images/scalr_main_title.png') no-repeat scroll top left;
+    width: 410px;
+    height: 166px;
+}
+
+#get-a-free-account {
+    background: url('images/sign_up_button_sprite.png') no-repeat scroll top left;
+    width: 336px;
+    height: 62px;
+    display: block;
+}
+
+#get-a-free-account:hover {
+    background-position: bottom;
+}
+
+#ribbon-graph {
+    background: url('images/graph_shadow.png') no-repeat scroll top left;
+    width: 458px;
+    height: 355px;
+    float: right;
+    margin: -20px 0 0 0;
+}
+
 /**************************************
   White frame
 **************************************/

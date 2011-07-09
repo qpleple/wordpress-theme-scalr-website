@@ -2,8 +2,14 @@
 
 <div id="ribbon">
     <div id="ribbon-left"></div>
-    <div id="ribbon-right">hi !</div>
-    <div id="ribbon-content"></div>
+    <div id="ribbon-right"></div>
+    <div id="ribbon-content">
+        <div id="ribbon-graph">
+            <img src="/wp-content/themes/public-website/images/graph.png" width="458" height="355" alt="Graph">
+        </div>
+        <div id="ribbon-description"></div>
+        <a href="#" id="get-a-free-account"></a>
+    </div>
 </div>
 
 <div id="page-content">
@@ -11,6 +17,7 @@
 			<div id="content-title"><?php the_title(); ?></div>
 			<?php the_content(); ?>
 	<?php endwhile; ?>
+	ss
 </div>
 <div id="page-bottom"></div>
 
