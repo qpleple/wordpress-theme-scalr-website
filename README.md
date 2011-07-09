@@ -1,0 +1,1 @@
+Wordpress theme for Scalr's public website
