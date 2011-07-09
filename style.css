@@ -153,6 +153,65 @@ body {
     margin: 0 24px;
 }
 
+/**************************************
+    Companies logos
+**************************************/
+#logos {
+    margin-top: 20px;
+}
+
+#logos a.logo-company {
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+
+#logos a.logo-company:hover {
+    background-position: bottom;
+}
+
+#logo-accenture {
+    background: url('images/company_logos/accenture_sprite.png') no-repeat scroll top left;
+    width: 125px;
+    height: 46px;
+    margin-top: 15px;
+}
+
+#logo-amazon {
+    background: url('images/company_logos/amazon_sprite.png') no-repeat scroll top left;
+    width: 134px;
+    height: 51px;
+    margin-top: 5px;
+}
+
+#logo-disney {
+    background: url('images/company_logos/disney_sprite.png') no-repeat scroll top left;
+    width: 114px;
+    height: 67px;
+}
+
+#logo-nokia {
+    background: url('images/company_logos/nokia_sprite.png') no-repeat scroll top left;
+    width: 108px;
+    height: 37px;
+    margin-top: 20px;
+}
+
+#logo-rackspace {
+    background: url('images/company_logos/rackspace_sprite.png') no-repeat scroll top left;
+    width: 139px;
+    height: 39px;
+    margin-top: 10px;
+}
+
+#logo-samsung {
+    background: url('images/company_logos/samsung_sprite.png') no-repeat scroll top left;
+    width: 108px;
+    height: 36px;
+    margin-top: 20px;
+}
+
+
 
 
 
