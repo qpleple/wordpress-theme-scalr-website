@@ -9,15 +9,15 @@ Description: Wordpress theme for Scalr's public website
 General
 **************************************/
 .clear {
-	clear : both;	
+    clear : both;	
 }
 
 .hide {
-	display: none;
+    display: none;
 }
 
 a {
-	text-decoration : none;
+    text-decoration : none;
 }
 
 /**************************************
@@ -37,3 +37,8 @@ body {
 
 #footer {
 }
+
+
+/**************************************
+  Images
+**************************************/
