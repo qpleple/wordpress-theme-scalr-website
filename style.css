@@ -110,6 +110,8 @@ body {
     background: url('images/scalr_main_title.png') no-repeat scroll top left;
     width: 410px;
     height: 166px;
+    float: left;
+    margin: 20px 0 0 20px;
 }
 
 #get-a-free-account {
@@ -117,6 +119,8 @@ body {
     width: 336px;
     height: 62px;
     display: block;
+    float: left;
+    margin: 20px 0 0 60px;
 }
 
 #get-a-free-account:hover {
