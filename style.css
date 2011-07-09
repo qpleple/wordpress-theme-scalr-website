@@ -1,0 +1,39 @@
+/*
+Theme Name: Scalr public
+Description: Wordpress theme for Scalr's public website
+*/
+
+@import url("base.css");
+
+/**************************************
+General
+**************************************/
+.clear {
+	clear : both;	
+}
+
+.hide {
+	display: none;
+}
+
+a {
+	text-decoration : none;
+}
+
+/**************************************
+Structure
+**************************************/
+body {
+}
+
+#header {
+}
+
+#sidebar {
+}
+
+#content {
+}
+
+#footer {
+}
