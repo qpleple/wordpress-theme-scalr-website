@@ -20,25 +20,71 @@ a {
     text-decoration : none;
 }
 
-/**************************************
-Structure
-**************************************/
 body {
+    background: #EEE;
+    font-family: Georgia;
 }
 
-#header {
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/**************************************
+  Header
+**************************************/
+
+#header-left {
+    background: url('images/top_canvas_l.png') no-repeat scroll bottom left;
+    width: 14px;
+    height: 120px;
+    float: left;
+}
+
+#header-right {
+    background: url('images/top_canvas_r.png') no-repeat scroll top left;
+    width: 14px;
+    height: 120px;
+    float: right;
+}
+
+#header-content {
+    background: url('images/top_canvas_1px.png') repeat-x scroll top left;
+    height: 120px;
+}
+
+#sclar-logo {
+    background: url('images/scalr_logo.png') no-repeat scroll top left;
+    width: 193px;
+    height: 47px;
+    float: left;
+    display: block;
+    margin: 40px 0 0 30px;
 }
 
 #sidebar {
+    float: right;
+    margin: 60px 30px 0 0;
 }
 
-#content {
+#sidebar li {
+    float: left;
 }
 
-#footer {
+#sidebar li a {
+    color: #b25332;
+    font-size: 18px;
+    font-family: Arial;
+    font-style: italic;
+    margin-left: 20px;
 }
 
 
-/**************************************
-  Images
-**************************************/
+
+
+
+
+
+
+
+

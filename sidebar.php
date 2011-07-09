@@ -1,8 +1,8 @@
 <div id="sidebar">
 	<ul>
-		<li <?php if (is_home()) { ?>class="current_page_item"<?php } ?>><a href="<?php bloginfo('url'); ?>">
-			<a href="<?php bloginfo('url'); ?>">Home</a>
-		</li>
-		<?php wp_list_pages('title_li=' ); ?>
+		<li><a href="#">Screenshots</a></li>
+		<li><a href="#">Demo</a></li>
+		<li><a href="#">Features & Princing</a></li>
+		<li><a href="#">Login</a></li>
 	</ul>
 </div>
