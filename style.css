@@ -86,6 +86,7 @@ body {
 /**************************************
   Red ribbon
 **************************************/
+
 #ribbon-left {
     background: url('images/red_ribbon_l.png') no-repeat scroll top left;
     width: 30px;
@@ -120,7 +121,7 @@ body {
     height: 62px;
     display: block;
     float: left;
-    margin: 20px 0 0 60px;
+    margin: 30px 0 0 60px;
 }
 
 #get-a-free-account:hover {
@@ -132,7 +133,7 @@ body {
     width: 458px;
     height: 355px;
     float: right;
-    margin: -20px 0 0 0;
+    margin: -20px 20px 0 0;
 }
 
 /**************************************
