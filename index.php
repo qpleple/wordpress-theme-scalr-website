@@ -1,17 +1,10 @@
 <?php get_header(); ?>
 
 <div id="content">
-	<?php if(have_posts()) : ?>
-		<?php while(have_posts()) : the_post(); ?>
-			<div class="post">
-				<?php the_title(); ?>
-				<?php the_content(); ?>
-			</div>
-		<?php endwhile; ?>
-	<?php endif; ?>
+	<?php while(have_posts()) : the_post(); ?>
+			<div id="content-title"><?php the_title(); ?></div>
+			<?php the_content(); ?>
+	<?php endwhile; ?>
 </div>
 
 <?php get_footer(); ?>
-
-</body>
-</html>
