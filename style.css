@@ -84,6 +84,29 @@ body {
 }
 
 /**************************************
+  Red ribbon
+**************************************/
+#ribbon-left {
+    background: url('images/red_ribbon_l.png') no-repeat scroll top left;
+    width: 30px;
+    height: 334px;
+    float: left;
+}
+
+#ribbon-right {
+    background: url('images/red_ribbon_r.png') no-repeat scroll top left;
+    width: 30px;
+    height: 334px;
+    float: right;
+}
+
+#ribbon-content {
+    background: url('images/red_ribbon_1px.png') repeat-x scroll top left;
+    height: 324px;
+    margin: 0 30px;
+}
+
+/**************************************
   White frame
 **************************************/
 
