@@ -34,6 +34,10 @@ body {
   Header
 **************************************/
 
+#header {
+    margin: 0 24px;
+}
+
 #header-left {
     background: url('images/top_canvas_l.png') no-repeat scroll bottom left;
     width: 14px;
@@ -79,8 +83,22 @@ body {
     margin-left: 20px;
 }
 
+/**************************************
+  White frame
+**************************************/
 
+#page-content {
+    background: url('images/content_canvas_1px.png') repeat-y scroll top left;
+    width: 1000px;
+    padding: 20px 60px;
+}
 
+#page-bottom {
+    background: url('images/content_canvas_b.png') no-repeat scroll top left;
+    width: 952px;
+    height: 12px;
+    margin: 0 24px;
+}
 
 
 
