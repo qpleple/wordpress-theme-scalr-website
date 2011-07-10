@@ -26,7 +26,7 @@ body {
 }
 
 #container {
-    width: 1000px;
+    width:  1000px;
     margin: 0 auto;
 }
 
@@ -142,7 +142,7 @@ body {
 
 #page-content {
     background: url('images/content_canvas_1px.png') repeat-y scroll top left;
-    width: 1000px;
+    width: 880px;
     padding: 20px 60px;
 }
 
@@ -157,13 +157,14 @@ body {
     Companies logos
 **************************************/
 #logos {
-    margin-top: 20px;
+    margin: 20px 0 50px 0;
+    height: 70px;
 }
 
 #logos a.logo-company {
     display: block;
     float: left;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 #logos a.logo-company:hover {
@@ -212,9 +213,64 @@ body {
 }
 
 
+/**************************************
+    Home page
+**************************************/
 
+#home-quotes {
+    float: left;
+    width: 410px;
+}
 
+#home-quotes div.home-quote + div.home-quote {
+    margin-top: 60px;
+}
 
+#home-quotes div.home-quote-content {
+    line-height: 23px;
+    font-size: 18px;
+    color: #bf3000;
+    font-style: italic;
+}
 
+#home-quotes div.home-quote-signature {
+    font-size: 14px;
+    color: #585858;
+    text-align: right;
+    font-style: italic;
+}
+
+#home-features {
+    margin-left: 450px;
+    line-height: 18px;
+}
+
+#home-features div.home-feature + div.home-feature {
+    margin-top: 60px;
+}
+
+#home-features div.home-feature-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#home-features div.home-feature-content {
+    font-size: 14px;
+    color: #585858;
+    
+}
+
+#scalability-launch {
+    background: url('images/launch.png') no-repeat scroll top left;
+    min-height: 84px;
+    padding-left: 100px;
+}
+
+#scalability-growth {
+    background: url('images/scalability.png') no-repeat scroll top left;
+    padding-left: 100px;
+    min-height: 93px;
+}
 
 
