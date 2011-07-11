@@ -219,6 +219,10 @@ body {
     text-shadow: 0 1px #fff;
 }
 
+.footer-column li a:hover {
+    text-decoration: underline;
+}
+
 #footer-bottom-note {
     font-size: 13px;
     color: #999;
