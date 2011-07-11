@@ -154,7 +154,69 @@ body {
 }
 
 /**************************************
-    Companies logos
+    Footer
+**************************************/
+#footer {
+    padding: 20px 30px 0 30px;
+}
+
+#footer-left {
+    background: url('images/footer_l.png') no-repeat scroll top left;
+    width: 8px;
+    height: 229px;
+    float: left;
+}
+
+#footer-right {
+    background: url('images/footer_r.png') no-repeat scroll top left;
+    width: 8px;
+    height: 229px;
+    float: right;
+}
+
+#footer-content {
+    background: url('images/footer_1px.png') repeat-x scroll top left;
+    height: 209px;
+    padding: 20px 130px 0 130px;
+}
+
+#footer-columns {
+    height: 180px;
+}
+
+.footer-column {
+    float: left;
+}
+
+.footer-column + .footer-column {
+    margin-left: 120px;
+}
+
+.footer-column-title {
+    font-size: 17px;
+    color: #a52228;
+    text-shadow: 0 1px #fff;
+    line-height: 60px;
+}
+
+.footer-column li + li {
+    margin-top: 10px;
+}
+
+.footer-column li a {
+    color: #585858;
+    font-size: 13px;
+    text-shadow: 0 1px #fff;
+}
+
+#footer-bottom-note {
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+}
+
+/**************************************
+    Home page
 **************************************/
 #logos {
     margin: 20px 0 50px 0;
@@ -212,11 +274,6 @@ body {
     margin-top: 20px;
 }
 
-
-/**************************************
-    Home page
-**************************************/
-
 #home-quotes {
     float: left;
     width: 410px;
@@ -272,5 +329,7 @@ body {
     padding-left: 100px;
     min-height: 93px;
 }
+
+
 
 
