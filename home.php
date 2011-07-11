@@ -17,7 +17,7 @@
     </div>
 </div>
 
-<div id="page-content">
+<div id="page-content" class="page-content-home">
 	<?php while(have_posts()) : the_post(); ?>
 			<?php the_content(); ?>
 	<?php endwhile; ?>

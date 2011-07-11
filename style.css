@@ -152,8 +152,8 @@ body {
 
 #page-content {
     background: url('images/content_canvas_1px.png') repeat-y scroll top left;
-    width: 880px;
-    padding: 20px 60px;
+    width: 790px;
+    padding: 20px 100px;
 }
 
 #page-bottom {
@@ -232,6 +232,11 @@ body {
 /**************************************
     Home page
 **************************************/
+#page-content.page-content-home {
+    width: 850px;
+    padding: 20px 70px;
+}
+
 #logos {
     margin: 20px 0 50px 0;
     height: 70px;
@@ -240,7 +245,10 @@ body {
 #logos a.logo-company {
     display: block;
     float: left;
-    margin-right: 25px;
+}
+
+#logos a.logo-company + a.logo-company {
+    margin-left: 23px;
 }
 
 #logos a.logo-company:hover {
@@ -345,7 +353,7 @@ body {
 }
 
 /**************************************
-    Contact Us
+    About Us
 **************************************/
 
 
