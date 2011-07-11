@@ -30,6 +30,15 @@ body {
     margin: 0 auto;
 }
 
+#content-title {
+    color: #b25332;
+    font-size: 28px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
 /**************************************
   Header
 **************************************/
@@ -330,6 +339,11 @@ body {
     padding-left: 100px;
     min-height: 93px;
 }
+
+/**************************************
+    Contact Us
+**************************************/
+
 
 
 
