@@ -356,6 +356,115 @@ body {
     About Us
 **************************************/
 
+#aboutus-description {
+    font-size: 19px;
+    color: #333;
+    line-height: 22px;
+}
+
+h2.aboutus {
+    font-size: 21px;
+    margin: 20px 0;
+}
+
+.aboutus-team-member {
+    font-size: 16px;
+    color: #585858;
+    line-height: 22px;
+    text-shadow: 0 1 #fff;
+    background-color: #f1f4f8;
+    border-radius: 10px;
+    padding: 20px 10px;
+    font-style: italic;
+}
+
+.aboutus-team-member + .aboutus-team-member, .aboutus-board-member + .aboutus-board-member {
+    margin-top: 20px;
+}
+
+.aboutus-team-member img, .aboutus-board-member img {
+    float: left;
+    margin: 0 20px 0 10px;
+}
+
+.aboutus-team-member a {
+    text-decoration: underline;
+}
+
+.aboutus-board-member {
+    font-size: 16px;
+    color: #585858;
+    line-height: 22px;
+    text-shadow: 0 1 #fff;
+}
+
+#aboutus-joinus a {
+    display: block;
+    float: left;
+}
+
+#aboutus-joinus {
+    margin: 30px 0;
+    height: 46px;
+}
+
+#aboutus-joinus a + a {
+    margin-left: 40px;
+}
+
+#aboutus-joinus a:hover {
+    background-position: bottom;
+}
+
+#aboutus-facebook {
+    background: url('images/about_us/facebook_sprite.png') no-repeat scroll top left;
+    width: 144px;
+    height: 46px;
+}
+
+#aboutus-linkedin {
+    background: url('images/about_us/linkedin_sprite.png') no-repeat scroll top left;
+    width: 131px;
+    height: 46px;
+}
+
+#aboutus-twitter {
+    background: url('images/about_us/twitter_sprite.png') no-repeat scroll top left;
+    width: 145px;
+    height: 46px;
+}
+
+#aboutus-blog {
+    background: url('images/about_us/blog_sprite.png') no-repeat scroll top left;
+    width: 233px;
+    height: 46px;
+}
+
+#aboutus-mail {
+    list-style: none;
+    background: url('images/about_us/mail.png') no-repeat scroll top left;
+    height: 79px;
+    line-height: 25px;
+    padding-left: 100px;
+    margin: 26px 0;
+}
+
+#aboutus-mail li a {
+    color: #0C66BD;
+    font-size: 20px;
+}
+
+.aboutus-mapinfo {
+    line-height: 22px;
+    color: #585858;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
 
 
 
