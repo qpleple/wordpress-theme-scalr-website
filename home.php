@@ -1,3 +1,8 @@
+<?php
+/**
+ * Template Name: Home
+ */
+?>
 <?php get_header(); ?>
 
 <div id="ribbon">
@@ -12,12 +17,10 @@
     </div>
 </div>
 
-<div id="page-content">
+<div id="page-content" class="page-content-home">
 	<?php while(have_posts()) : the_post(); ?>
-			<div id="content-title"><?php the_title(); ?></div>
 			<?php the_content(); ?>
 	<?php endwhile; ?>
-	ss
 </div>
 <div id="page-bottom"></div>
 
