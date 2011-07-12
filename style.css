@@ -25,6 +25,13 @@ h1, h2, h3 {
     margin: 30px 0 20px 0;
 }
 
+h2 {
+    color: #B81920;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
 ul, p {
     margin: 10px 0;
 }
@@ -649,5 +656,96 @@ h2.aboutus {
 #blog-canvas .RSSPumpArticle + .RSSPumpArticle {
     margin-top: 10px;
 }
+
+/**************************************
+  Tour
+**************************************/
+#page-content {
+    width: 870px;
+    padding: 5px 60px 20px 60px;
+}
+
+#tour-menu li {
+    float: left;
+}
+#tour-menu li + li {
+    margin-left: 65px;
+}
+
+#tour-menu a {
+    display: block;
+    color: #336699;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 40px 0;
+    font-style: italic;
+}
+
+#tour-menu a:hover {
+    color: #9999cc;
+}
+
+#tour-screencast {
+    background: url('images/tour/screencast.png') no-repeat scroll top center;
+    min-width: 73px;
+    padding-top: 90px;
+}
+
+#tour-fun {
+    background: url('images/tour/comics.png') no-repeat scroll top center;
+    min-width: 59px;
+    padding-top: 90px;
+}
+
+#tour-farm {
+    background: url('images/tour/create_farm.png') no-repeat scroll top center;
+    min-width: 125px;
+    padding-top: 90px;
+}
+
+#tour-metrics {
+    background: url('images/tour/create_scaling_metric.png') no-repeat scroll top center;
+    min-width: 69px;
+    padding-top: 90px;
+}
+
+#tour-mysql {
+    background: url('images/tour/configure_mysql.png') no-repeat scroll top center;
+    min-width: 96px;
+    padding-top: 90px;
+}
+
+#watching-tv {
+    background: url('images/tour/man_watching_tv.png') no-repeat scroll top center;
+    height: 578px;
+}
+
+#watch-screencast {
+    background: url('images/tour/tv_screen_sprite.png') no-repeat scroll top left;
+    width: 296px;
+    height: 159px;
+    display: block;
+    float: left;
+    margin: 57px 0 0 93px;
+}
+
+#watch-screencast:hover {
+    background-position: bottom;
+}
+
+div.comic {
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
 
 
