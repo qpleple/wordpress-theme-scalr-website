@@ -21,9 +21,22 @@ a {
     color: #0C66BD;
 }
 
+h1, h2, h3 {
+    margin: 30px 0 20px 0;
+}
+
+ul, p {
+    margin: 10px 0;
+}
+
+.big {
+    font-size: 19px;
+}
+
 body {
     background: #EEE;
     font-family: Georgia;
+    color: #333;
 }
 
 #container {
@@ -95,6 +108,26 @@ body {
 }
 
 /**************************************
+  White frame
+**************************************/
+
+#page-content {
+    background: url('images/content_canvas_1px.png') repeat-y scroll top left;
+    width: 690px;
+    padding: 20px 150px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#page-bottom {
+    background: url('images/content_canvas_b.png') no-repeat scroll top left;
+    width: 952px;
+    height: 12px;
+    margin: 0 24px;
+}
+
+
+/**************************************
   Red ribbon
 **************************************/
 
@@ -145,23 +178,6 @@ body {
     height: 355px;
     float: right;
     margin: -20px 20px 0 0;
-}
-
-/**************************************
-  White frame
-**************************************/
-
-#page-content {
-    background: url('images/content_canvas_1px.png') repeat-y scroll top left;
-    width: 790px;
-    padding: 20px 100px;
-}
-
-#page-bottom {
-    background: url('images/content_canvas_b.png') no-repeat scroll top left;
-    width: 952px;
-    height: 12px;
-    margin: 0 24px;
 }
 
 /**************************************
@@ -412,7 +428,7 @@ h2.aboutus {
 }
 
 #aboutus-joinus a + a {
-    margin-left: 40px;
+    margin-left: 12px;
 }
 
 #aboutus-joinus a:hover {
@@ -470,7 +486,7 @@ h2.aboutus {
 #contactus-links {
     font-size: 20px;
     line-height: 70px;
-    padding-left: 200px;
+    padding-left: 150px;
     list-style: none;
 }
 
@@ -481,10 +497,15 @@ h2.aboutus {
 /**************************************
     Login page
 **************************************/
+#login-page-content {
+    margin-left: 350px;
+}
+
 #login-sidebar {
     width: 370px;
     float: left;
     font-family: Arial;
+    margin-left: -50px;
 }
 
 #login-box, #remind-box {
@@ -601,10 +622,6 @@ h2.aboutus {
     float: right;
     text-decoration: underline;
     font-size: 14px;
-}
-
-#login-page-content {
-    margin-left: 420px;
 }
 
 #twitter-canvas, #facebook-canvas {
