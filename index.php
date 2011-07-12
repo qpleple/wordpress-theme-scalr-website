@@ -5,6 +5,10 @@
 			<div id="content-title"><?php the_title(); ?></div>
 			<?php the_content(); ?>
 	<?php endwhile; ?>
+
+	<div id="login-box">
+	   
+	</div>
 </div>
 <div id="page-bottom"></div>
 
