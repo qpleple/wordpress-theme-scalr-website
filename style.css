@@ -683,7 +683,7 @@ h2.aboutus {
     font-style: italic;
 }
 
-#tour-menu a:hover {
+#tour-menu a:hover, #tour-menu a.current {
     color: #9999cc;
 }
 
