@@ -18,6 +18,7 @@ General
 
 a {
     text-decoration : none;
+    color: #0C66BD;
 }
 
 body {
@@ -373,7 +374,9 @@ h2.aboutus {
     line-height: 22px;
     text-shadow: 0 1 #fff;
     background-color: #f1f4f8;
-    border-radius: 10px;
+    border-radius:         10px;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
     padding: 20px 10px;
     font-style: italic;
 }
@@ -478,9 +481,156 @@ h2.aboutus {
 /**************************************
     Login page
 **************************************/
+#login-sidebar {
+    width: 370px;
+    float: left;
+    font-family: Arial;
+}
 
+#login-box, #remind-box {
+    background-color: #f1f4f8;
+    border-radius:         5px;
+    -moz-border-radius:    5px;
+    -webkit-border-radius: 5px;
+}
 
+.login-content {
+    padding: 30px 20px;
+    clear: both;
+    border-bottom: 2px solid #ccc;
+}
 
+.login-content + .login-content {
+    border-top: 2px solid white;
+    border-bottom: none;
+}
 
+#login-submit {
+    background: url('images/login/login_button_sprite.png') no-repeat scroll top left;
+    width: 104px;
+    height: 36px;
+    border: none;
+    float: left;
+    margin-right: 5px;
+}
+
+#login-submit:hover {
+    background-position: bottom;
+    cursor: pointer;
+}
+
+.login-label {
+    color: #333;
+    font-size: 15px;
+}
+
+.login-input {
+    background: url('images/login/text_input.png') no-repeat scroll top left;
+    width: 310px;
+    height: 33px;
+    margin: 5px 0 20px 0;
+    border: none;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+#login-links {
+    line-height: 33px;
+    font-size: 14px;
+}
+
+#login-signup-link {
+    border-bottom: 1px solid #0C66BD;
+    padding-bottom: 1px;
+}
+
+#login-remind-passwd {
+    border-bottom: 1px dashed #0C66BD;
+    padding-bottom: 1px;
+}
+
+#login-others-label {
+    margin-bottom: 10px;
+}
+
+#google-login {
+    background: url('images/google_button_sprite.png') no-repeat scroll top left;
+    width: 142px;
+    height: 39px;
+    display: inline-block;
+}
+
+#facebook-login {
+    background: url('images/facebook_button_sprite.png') no-repeat scroll top left;
+    width: 142px;
+    height: 39px;
+    display: inline-block;
+}
+
+#google-login:hover, #facebook-login:hover {
+    background-position: bottom;
+}
+
+#login-or {
+    background: url('images/login/or_title.png') no-repeat center center;
+    width: 30px;
+    height: 39px;
+    display: inline-block;
+}
+
+#remind-box {
+    margin-top: 30px;
+    padding: 20px 30px;
+}
+
+#remind-submit {
+    background: url('images/login/reset_button_sprite.png') no-repeat scroll top left;
+    width: 169px;
+    height: 36px;
+    border: none;
+    float: left;
+}
+
+#remind-submit:hover {
+    background-position: bottom;
+    cursor: pointer;
+}
+
+#faq-link {
+    line-height: 36px;
+    float: right;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+#login-page-content {
+    margin-left: 420px;
+}
+
+#twitter-canvas, #facebook-canvas {
+    margin-bottom: 30px;
+}
+
+#blog-canvas a {
+    font-size: 17px;
+    font-family: "Trebuchet MS";
+    color: #757575;
+    text-decoration: none;
+}
+
+#blog-canvas a:hover {
+    text-decoration: underline;
+}
+
+#blog-canvas h1 {
+    font-size: 22px;
+    font-family: "Trebuchet MS";
+    color: #e07272;
+    margin-bottom: 10px;
+}
+
+#blog-canvas .RSSPumpArticle + .RSSPumpArticle {
+    margin-top: 10px;
+}
 
 
