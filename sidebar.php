@@ -1,8 +1,11 @@
 <div id="sidebar">
 	<ul>
-		<li><a href="#">Screenshots</a></li>
-		<li><a href="#">Demo</a></li>
-		<li><a href="#">Features & Princing</a></li>
-		<li><a href="#">Login</a></li>
+	    <?php $query = new WP_Query("name=header"); ?>
+
+        <?php while ($query->have_posts()) : $query->the_post(); ?>
+        	<?php the_content(); ?>
+        <?php endwhile; ?>
+
+        <?php wp_reset_postdata(); // Reset Post Data ?>
 	</ul>
 </div>
