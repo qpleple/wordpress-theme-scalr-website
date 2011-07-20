@@ -25,7 +25,7 @@
         <div id="header-left"></div>
         <div id="header-right"></div>
         <div id="header-content">
-            <a id="sclar-logo" href="<?php bloginfo('rss_url'); ?>"></a>
+            <a id="sclar-logo" href="<?php bloginfo('url'); ?>"></a>
             <?php get_sidebar(); ?>
         </div>
     </div>
