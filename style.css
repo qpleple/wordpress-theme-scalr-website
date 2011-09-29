@@ -664,7 +664,7 @@ h2.aboutus {
 /**************************************
   Tour
 **************************************/
-#page-content {
+#page-content-tour {
     width: 870px;
     padding: 5px 60px 20px 60px;
 }
@@ -743,11 +743,60 @@ div.comic {
     margin-bottom: 70px;
 }
 
+/**************************************
+  Pricing
+**************************************/
+@font-face {
+    font-family: MyriadBold;
+    src: url("images/pricing/fonts/MyriadPro-BoldIt.otf");
+}
+
+@font-face {
+    font-family: MyriadBlack;
+    src: url("images/pricing/fonts/MyriadPro-BlackIt.otf");
+}
 
 
+#table-pricing td {
+    width: 114px;
+}
+
+#row-chars td {
+    height: 125px;
+}
+
+#char-1 { background: url('images/pricing/characters/scalrman.png') no-repeat scroll top left; }
+#char-2 { background: url('images/pricing/characters/man.png') no-repeat scroll top left; }
+#char-3 { background: url('images/pricing/characters/young_man.png') no-repeat scroll top left; }
+#char-4 { background: url('images/pricing/characters/teenager.png') no-repeat scroll top left; }
+#char-5 { background: url('images/pricing/characters/boy.png') no-repeat scroll top left; }
+#char-6 { background: url('images/pricing/characters/baby.png') no-repeat scroll top left; }
+#char-1:hover { background: url('images/pricing/characters/scalrman_hover.png') no-repeat scroll top left; }
+#char-2:hover { background: url('images/pricing/characters/man_hover.png') no-repeat scroll top left; }
+#char-3:hover { background: url('images/pricing/characters/young_man_hover.png') no-repeat scroll top left; }
+#char-4:hover { background: url('images/pricing/characters/teenager_hover.png') no-repeat scroll top left; }
+#char-5:hover { background: url('images/pricing/characters/boy_hover.png') no-repeat scroll top left; }
+#char-6:hover { background: url('images/pricing/characters/baby_hover.png') no-repeat scroll top left; }
 
 
+#row-head td {
+    height: 90px;
+    background: url('images/pricing/top_menu/top_menu_1px.png') repeat-x scroll top left;
+    font-family: MyriadBold;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
 
+#row-head td:hover {
+    background-image: url('images/pricing/top_menu/top_menu_1px_hover.png');
+}
+
+td#green-arrow {
+    background: url('images/pricing/top_menu/green_arrow.png') no-repeat scroll top left;
+    width: 315px;
+    height: 114px;
+}
 
 
 
