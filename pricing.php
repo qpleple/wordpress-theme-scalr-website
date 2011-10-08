@@ -99,10 +99,16 @@
         <div id="princing-text">
             <ul>
                 <li><sup>1</sup> Public clouds ...</li>
-                <li><sup>1</sup> Public clouds ...</li>
-                <li><sup>1</sup> Public clouds ...</li>
-                <li><sup>1</sup> Public clouds ...</li>
+                <li><sup>2</sup> Public clouds ...</li>
+                <li><sup>3</sup> Public clouds ...</li>
+                <li><sup>4</sup> Public clouds ...</li>
             </ul>
+            
+            <h3>Scalr consulting</h3>
+            Get blsd kmsldj flkdsj lkd jflkd jsfksdj flkdsf
+
+            <h3>Scalr consulting</h3>
+            Get blsd kmsldj flkdsj lkd jflkd jsfksdj flkdsf
         </div>
         
 	<?php endwhile; ?>	

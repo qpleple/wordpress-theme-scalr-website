@@ -639,7 +639,7 @@ div.comic {
 #table-pricing {
   border-spacing: 2px;
   border-collapse: separate;
-  margin: 30px 4px;
+  margin: 0 0 30px 4px;
 }
 #table-pricing td {
   width: 112px;
@@ -709,8 +709,11 @@ sup {
   top: -0.5em;
 }
 #princing-text {
-  font-size: 20px;
+  padding-left: 80px;
 }
 #princing-text ul li {
   margin: 5px 0;
+}
+#princing-text h3 {
+  margin: 30px 0 10px 0;
 }
