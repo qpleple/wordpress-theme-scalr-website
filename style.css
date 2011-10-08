@@ -1,804 +1,716 @@
+@import url("base.css");
 /*
 Theme Name: Scalr public
 Description: Wordpress theme for Scalr's public website
 */
-
-@import url("base.css");
-
 /**************************************
 General
 **************************************/
 .clear {
-    clear : both;	
+  clear: both;
 }
-
 .hide {
-    display: none;
+  display: none;
 }
-
 a {
-    text-decoration : none;
-    color: #0C66BD;
+  text-decoration: none;
+  color: #0C66BD;
 }
-
 h1, h2, h3 {
-    margin: 30px 0 20px 0;
+  margin: 30px 0 20px 0;
 }
-
 h2 {
-    color: #B81920;
-    font-size: 20px;
-    font-family: Arial;
-    font-weight: bold;
+  color: #B81920;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
 }
-
 ul, p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
-
 .big {
-    font-size: 19px;
+  font-size: 19px;
 }
-
 body {
-    background: #F5F5F5;
-    font-family: Georgia;
-    color: #333;
+  background: #F5F5F5;
+  font-family: Georgia;
+  color: #333;
 }
-
 #container {
-    width:  1000px;
-    margin: 0 auto;
+  width: 1000px;
+  margin: 0 auto;
 }
-
 #content-title {
-    color: #B81920;
-    font-size: 28px;
-    font-family: Arial;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px 0 40px 0;
+  color: #B81920;
+  font-size: 28px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0 40px 0;
 }
-
 /**************************************
   Header
 **************************************/
-
 #header {
-    margin: 0 24px;
+  margin: 0 24px;
 }
-
 #header-left {
-    background: url('images/top_canvas_l.png') no-repeat scroll bottom left;
-    width: 14px;
-    height: 120px;
-    float: left;
+  background: url('images/top_canvas_l.png') no-repeat scroll bottom left;
+  width: 14px;
+  height: 120px;
+  float: left;
 }
-
 #header-right {
-    background: url('images/top_canvas_r.png') no-repeat scroll top left;
-    width: 14px;
-    height: 120px;
-    float: right;
+  background: url('images/top_canvas_r.png') no-repeat scroll top left;
+  width: 14px;
+  height: 120px;
+  float: right;
 }
-
 #header-content {
-    background: url('images/top_canvas_1px.png') repeat-x scroll top left;
-    height: 120px;
+  background: url('images/top_canvas_1px.png') repeat-x scroll top left;
+  height: 120px;
 }
-
 #sclar-logo {
-    background: url('images/scalr_logo.png') no-repeat scroll top left;
-    width: 193px;
-    height: 47px;
-    float: left;
-    display: block;
-    margin: 40px 0 0 30px;
+  background: url('images/scalr_logo.png') no-repeat scroll top left;
+  width: 193px;
+  height: 47px;
+  float: left;
+  display: block;
+  margin: 40px 0 0 30px;
 }
-
 #sidebar {
-    float: right;
-    margin: 60px 30px 0 0;
+  float: right;
+  margin: 60px 30px 0 0;
 }
-
 #sidebar li {
-    float: left;
+  float: left;
 }
-
 #sidebar li a {
-    color: #b25332;
-    font-size: 18px;
-    font-family: Arial;
-    font-style: italic;
-    margin-left: 35px;
-    font-weight: bold;
+  color: #b25332;
+  font-size: 18px;
+  font-family: Arial;
+  font-style: italic;
+  margin-left: 35px;
+  font-weight: bold;
 }
-
 /**************************************
   White frame
 **************************************/
-
 #page-content {
-    background: url('images/content_canvas_1px.png') repeat-y scroll top left;
-    width: 690px;
-    padding: 20px 150px;
-    font-size: 16px;
-    line-height: 25px;
+  background: url('images/content_canvas_1px.png') repeat-y scroll top left;
+  width: 690px;
+  padding: 20px 150px;
+  font-size: 16px;
+  line-height: 25px;
 }
-
 #page-bottom {
-    background: url('images/content_canvas_b.png') no-repeat scroll top left;
-    width: 952px;
-    height: 12px;
-    margin: 0 24px;
+  background: url('images/content_canvas_b.png') no-repeat scroll top left;
+  width: 952px;
+  height: 12px;
+  margin: 0 24px;
 }
-
-
 /**************************************
   Red ribbon
 **************************************/
-
 #ribbon-left {
-    background: url('images/red_ribbon_l.png') no-repeat scroll top left;
-    width: 30px;
-    height: 334px;
-    float: left;
+  background: url('images/red_ribbon_l.png') no-repeat scroll top left;
+  width: 30px;
+  height: 334px;
+  float: left;
 }
-
 #ribbon-right {
-    background: url('images/red_ribbon_r.png') no-repeat scroll top left;
-    width: 30px;
-    height: 334px;
-    float: right;
+  background: url('images/red_ribbon_r.png') no-repeat scroll top left;
+  width: 30px;
+  height: 334px;
+  float: right;
 }
-
 #ribbon-content {
-    background: url('images/red_ribbon_1px.png') repeat-x scroll top left;
-    height: 324px;
-    margin: 0 30px;
+  background: url('images/red_ribbon_1px.png') repeat-x scroll top left;
+  height: 324px;
+  margin: 0 30px;
 }
-
 #ribbon-description {
-    background: url('images/scalr_main_title.png') no-repeat scroll top left;
-    width: 410px;
-    height: 166px;
-    float: left;
-    margin: 20px 0 0 20px;
+  background: url('images/scalr_main_title.png') no-repeat scroll top left;
+  width: 410px;
+  height: 166px;
+  float: left;
+  margin: 20px 0 0 20px;
 }
-
 #get-a-free-account {
-    background: url('images/sign_up_button_sprite.png') no-repeat scroll top left;
-    width: 336px;
-    height: 62px;
-    display: block;
-    float: left;
-    margin: 30px 0 0 60px;
+  background: url('images/sign_up_button_sprite.png') no-repeat scroll top left;
+  width: 336px;
+  height: 62px;
+  display: block;
+  float: left;
+  margin: 30px 0 0 60px;
 }
-
 #get-a-free-account:hover {
-    background-position: bottom;
+  background-position: bottom;
 }
-
 #ribbon-graph {
-    background: url('images/graph_shadow.png') no-repeat scroll top left;
-    width: 458px;
-    height: 355px;
-    float: right;
-    margin: -20px 20px 0 0;
+  background: url('images/graph_shadow.png') no-repeat scroll top left;
+  width: 458px;
+  height: 355px;
+  float: right;
+  margin: -20px 20px 0 0;
 }
-
 /**************************************
     Footer
 **************************************/
 #footer {
-    padding: 20px 30px 0 30px;
+  padding: 20px 30px 0 30px;
 }
-
 #footer-left {
-    background: url('images/footer_l.png') no-repeat scroll top left;
-    width: 8px;
-    height: 229px;
-    float: left;
+  background: url('images/footer_l.png') no-repeat scroll top left;
+  width: 8px;
+  height: 229px;
+  float: left;
 }
-
 #footer-right {
-    background: url('images/footer_r.png') no-repeat scroll top left;
-    width: 8px;
-    height: 229px;
-    float: right;
+  background: url('images/footer_r.png') no-repeat scroll top left;
+  width: 8px;
+  height: 229px;
+  float: right;
 }
-
 #footer-content {
-    background: url('images/footer_1px.png') repeat-x scroll top left;
-    height: 209px;
-    padding: 20px 130px 0 130px;
+  background: url('images/footer_1px.png') repeat-x scroll top left;
+  height: 209px;
+  padding: 20px 130px 0 130px;
 }
-
 #footer-columns {
-    height: 180px;
+  height: 180px;
 }
-
 .footer-column {
-    float: left;
+  float: left;
 }
-
 .footer-column + .footer-column {
-    margin-left: 120px;
+  margin-left: 120px;
 }
-
 .footer-column-title {
-    font-size: 17px;
-    color: #a52228;
-    text-shadow: 0 1px #fff;
-    line-height: 60px;
+  font-size: 17px;
+  color: #a52228;
+  text-shadow: 0 1px #fff;
+  line-height: 60px;
 }
-
 .footer-column li + li {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-
 .footer-column li a {
-    color: #585858;
-    font-size: 13px;
-    text-shadow: 0 1px #fff;
+  color: #585858;
+  font-size: 13px;
+  text-shadow: 0 1px #fff;
 }
-
 .footer-column li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 #footer-bottom-note {
-    font-size: 13px;
-    color: #999;
-    text-align: center;
+  font-size: 13px;
+  color: #999;
+  text-align: center;
 }
-
 /**************************************
     Home page
 **************************************/
 #page-content.page-content-home {
-    width: 850px;
-    padding: 20px 70px;
+  width: 850px;
+  padding: 20px 70px;
 }
-
 #logos {
-    margin: 20px 0 50px 0;
-    height: 70px;
+  margin: 20px 0 50px 0;
+  height: 70px;
 }
-
 #logos a.logo-company {
-    display: block;
-    float: left;
+  display: block;
+  float: left;
 }
-
 #logos a.logo-company + a.logo-company {
-    margin-left: 23px;
+  margin-left: 23px;
 }
-
 #logos a.logo-company:hover {
-    background-position: bottom;
+  background-position: bottom;
 }
-
 #logo-accenture {
-    background: url('images/company_logos/accenture_sprite.png') no-repeat scroll top left;
-    width: 125px;
-    height: 46px;
-    margin-top: 15px;
+  background: url('images/company_logos/accenture_sprite.png') no-repeat scroll top left;
+  width: 125px;
+  height: 46px;
+  margin-top: 15px;
 }
-
 #logo-amazon {
-    background: url('images/company_logos/amazon_sprite.png') no-repeat scroll top left;
-    width: 134px;
-    height: 51px;
-    margin-top: 5px;
+  background: url('images/company_logos/amazon_sprite.png') no-repeat scroll top left;
+  width: 134px;
+  height: 51px;
+  margin-top: 5px;
 }
-
 #logo-disney {
-    background: url('images/company_logos/disney_sprite.png') no-repeat scroll top left;
-    width: 114px;
-    height: 67px;
+  background: url('images/company_logos/disney_sprite.png') no-repeat scroll top left;
+  width: 114px;
+  height: 67px;
 }
-
 #logo-nokia {
-    background: url('images/company_logos/nokia_sprite.png') no-repeat scroll top left;
-    width: 108px;
-    height: 37px;
-    margin-top: 20px;
+  background: url('images/company_logos/nokia_sprite.png') no-repeat scroll top left;
+  width: 108px;
+  height: 37px;
+  margin-top: 20px;
 }
-
 #logo-rackspace {
-    background: url('images/company_logos/rackspace_sprite.png') no-repeat scroll top left;
-    width: 139px;
-    height: 39px;
-    margin-top: 10px;
+  background: url('images/company_logos/rackspace_sprite.png') no-repeat scroll top left;
+  width: 139px;
+  height: 39px;
+  margin-top: 10px;
 }
-
 #logo-samsung {
-    background: url('images/company_logos/samsung_sprite.png') no-repeat scroll top left;
-    width: 108px;
-    height: 36px;
-    margin-top: 20px;
+  background: url('images/company_logos/samsung_sprite.png') no-repeat scroll top left;
+  width: 108px;
+  height: 36px;
+  margin-top: 20px;
 }
-
 #home-quotes {
-    float: left;
-    width: 410px;
+  float: left;
+  width: 410px;
 }
-
 #home-quotes div.home-quote + div.home-quote {
-    margin-top: 60px;
+  margin-top: 60px;
 }
-
 #home-quotes div.home-quote-content {
-    line-height: 23px;
-    font-size: 18px;
-    color: #bf3000;
-    font-style: italic;
+  line-height: 23px;
+  font-size: 18px;
+  color: #bf3000;
+  font-style: italic;
 }
-
 #home-quotes div.home-quote-signature {
-    font-size: 14px;
-    color: #585858;
-    text-align: right;
-    font-style: italic;
+  font-size: 14px;
+  color: #585858;
+  text-align: right;
+  font-style: italic;
 }
-
 #home-features {
-    margin-left: 450px;
-    line-height: 18px;
+  margin-left: 450px;
+  line-height: 18px;
 }
-
 #home-features div.home-feature + div.home-feature {
-    margin-top: 60px;
+  margin-top: 60px;
 }
-
 #home-features div.home-feature-title {
-    font-size: 20px;
-    color: #333;
-    margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
 }
-
 #home-features div.home-feature-content {
-    font-size: 14px;
-    color: #585858;
-    
+  font-size: 14px;
+  color: #585858;
 }
-
 #scalability-launch {
-    background: url('images/launch.png') no-repeat scroll top left;
-    min-height: 84px;
-    padding-left: 100px;
+  background: url('images/launch.png') no-repeat scroll top left;
+  min-height: 84px;
+  padding-left: 100px;
 }
-
 #scalability-growth {
-    background: url('images/scalability.png') no-repeat scroll top left;
-    padding-left: 100px;
-    min-height: 93px;
+  background: url('images/scalability.png') no-repeat scroll top left;
+  padding-left: 100px;
+  min-height: 93px;
 }
-
 /**************************************
     About Us page
 **************************************/
-
 #aboutus-description {
-    font-size: 19px;
-    color: #333;
-    line-height: 22px;
+  font-size: 19px;
+  color: #333;
+  line-height: 22px;
 }
-
 h2.aboutus {
-    font-size: 21px;
-    margin: 20px 0;
+  font-size: 21px;
+  margin: 20px 0;
 }
-
 .aboutus-team-member {
-    font-size: 16px;
-    color: #585858;
-    line-height: 22px;
-    text-shadow: 0 1 #fff;
-    background-color: #f1f4f8;
-    border-radius:         10px;
-    -moz-border-radius:    10px;
-    -webkit-border-radius: 10px;
-    padding: 20px 10px;
-    font-style: italic;
+  font-size: 16px;
+  color: #585858;
+  line-height: 22px;
+  text-shadow: 0 1 #fff;
+  background-color: #f1f4f8;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  padding: 20px 10px;
+  font-style: italic;
 }
-
 .aboutus-team-member + .aboutus-team-member, .aboutus-board-member + .aboutus-board-member {
-    margin-top: 20px;
+  margin-top: 20px;
 }
-
 .aboutus-team-member img, .aboutus-board-member img {
-    float: left;
-    margin: 0 20px 0 10px;
+  float: left;
+  margin: 0 20px 0 10px;
 }
-
 .aboutus-team-member a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 .aboutus-board-member {
-    font-size: 16px;
-    color: #585858;
-    line-height: 22px;
-    text-shadow: 0 1 #fff;
+  font-size: 16px;
+  color: #585858;
+  line-height: 22px;
+  text-shadow: 0 1 #fff;
 }
-
 #aboutus-joinus a {
-    display: block;
-    float: left;
+  display: block;
+  float: left;
 }
-
 #aboutus-joinus {
-    margin: 30px 0;
-    height: 46px;
+  margin: 30px 0;
+  height: 46px;
 }
-
 #aboutus-joinus a + a {
-    margin-left: 12px;
+  margin-left: 12px;
 }
-
 #aboutus-joinus a:hover {
-    background-position: bottom;
+  background-position: bottom;
 }
-
 #aboutus-facebook {
-    background: url('images/about_us/facebook_sprite.png') no-repeat scroll top left;
-    width: 144px;
-    height: 46px;
+  background: url('images/about_us/facebook_sprite.png') no-repeat scroll top left;
+  width: 144px;
+  height: 46px;
 }
-
 #aboutus-linkedin {
-    background: url('images/about_us/linkedin_sprite.png') no-repeat scroll top left;
-    width: 131px;
-    height: 46px;
+  background: url('images/about_us/linkedin_sprite.png') no-repeat scroll top left;
+  width: 131px;
+  height: 46px;
 }
-
 #aboutus-twitter {
-    background: url('images/about_us/twitter_sprite.png') no-repeat scroll top left;
-    width: 145px;
-    height: 46px;
+  background: url('images/about_us/twitter_sprite.png') no-repeat scroll top left;
+  width: 145px;
+  height: 46px;
 }
-
 #aboutus-blog {
-    background: url('images/about_us/blog_sprite.png') no-repeat scroll top left;
-    width: 233px;
-    height: 46px;
+  background: url('images/about_us/blog_sprite.png') no-repeat scroll top left;
+  width: 233px;
+  height: 46px;
 }
-
 #aboutus-mail {
-    list-style: none;
-    background: url('images/about_us/mail.png') no-repeat scroll top left;
-    height: 79px;
-    line-height: 25px;
-    padding-left: 100px;
-    margin: 26px 0;
+  list-style: none;
+  background: url('images/about_us/mail.png') no-repeat scroll top left;
+  height: 79px;
+  line-height: 25px;
+  padding-left: 100px;
+  margin: 26px 0;
 }
-
 #aboutus-mail li a {
-    color: #0C66BD;
-    font-size: 20px;
+  color: #0C66BD;
+  font-size: 20px;
 }
-
 .aboutus-mapinfo {
-    line-height: 22px;
-    color: #585858;
-    margin-bottom: 20px;
+  line-height: 22px;
+  color: #585858;
+  margin-bottom: 20px;
 }
-
 /**************************************
     Contact Us page
 **************************************/
-
 #contactus-links {
-    font-size: 20px;
-    line-height: 70px;
-    padding-left: 150px;
-    list-style: none;
+  font-size: 20px;
+  line-height: 70px;
+  padding-left: 150px;
+  list-style: none;
 }
-
 #contactus-links a {
-    color: #0C66BD;
+  color: #0C66BD;
 }
-
 /**************************************
     Login page
 **************************************/
 #login-page-content {
-    margin-left: 350px;
+  margin-left: 350px;
 }
-
 #login-sidebar {
-    width: 370px;
-    float: left;
-    font-family: Arial;
-    margin-left: -50px;
+  width: 370px;
+  float: left;
+  font-family: Arial;
+  margin-left: -50px;
 }
-
 #login-box, #remind-box {
-    background-color: #f1f4f8;
-    border-radius:         5px;
-    -moz-border-radius:    5px;
-    -webkit-border-radius: 5px;
+  background-color: #f1f4f8;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
-
 .login-content {
-    padding: 30px 20px;
-    clear: both;
-    border-bottom: 2px solid #ccc;
+  padding: 30px 20px;
+  clear: both;
+  border-bottom: 2px solid #ccc;
 }
-
 .login-content + .login-content {
-    border-top: 2px solid white;
-    border-bottom: none;
+  border-top: 2px solid white;
+  border-bottom: none;
 }
-
 #login-submit {
-    background: url('images/login/login_button_sprite.png') no-repeat scroll top left;
-    width: 104px;
-    height: 36px;
-    border: none;
-    float: left;
-    margin-right: 5px;
+  background: url('images/login/login_button_sprite.png') no-repeat scroll top left;
+  width: 104px;
+  height: 36px;
+  border: none;
+  float: left;
+  margin-right: 5px;
 }
-
 #login-submit:hover {
-    background-position: bottom;
-    cursor: pointer;
+  background-position: bottom;
+  cursor: pointer;
 }
-
 .login-label {
-    color: #333;
-    font-size: 15px;
+  color: #333;
+  font-size: 15px;
 }
-
 .login-input {
-    background: url('images/login/text_input.png') no-repeat scroll top left;
-    width: 310px;
-    height: 33px;
-    margin: 5px 0 20px 0;
-    border: none;
-    font-size: 20px;
-    padding: 0 5px;
+  background: url('images/login/text_input.png') no-repeat scroll top left;
+  width: 310px;
+  height: 33px;
+  margin: 5px 0 20px 0;
+  border: none;
+  font-size: 20px;
+  padding: 0 5px;
 }
-
 #login-links {
-    line-height: 33px;
-    font-size: 14px;
+  line-height: 33px;
+  font-size: 14px;
 }
-
 #login-signup-link {
-    border-bottom: 1px solid #0C66BD;
-    padding-bottom: 1px;
+  border-bottom: 1px solid #0C66BD;
+  padding-bottom: 1px;
 }
-
 #login-remind-passwd {
-    border-bottom: 1px dashed #0C66BD;
-    padding-bottom: 1px;
+  border-bottom: 1px dashed #0C66BD;
+  padding-bottom: 1px;
 }
-
 #login-others-label {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-
 #google-login {
-    background: url('images/google_button_sprite.png') no-repeat scroll top left;
-    width: 142px;
-    height: 39px;
-    display: inline-block;
+  background: url('images/google_button_sprite.png') no-repeat scroll top left;
+  width: 142px;
+  height: 39px;
+  display: inline-block;
 }
-
 #facebook-login {
-    background: url('images/facebook_button_sprite.png') no-repeat scroll top left;
-    width: 142px;
-    height: 39px;
-    display: inline-block;
+  background: url('images/facebook_button_sprite.png') no-repeat scroll top left;
+  width: 142px;
+  height: 39px;
+  display: inline-block;
 }
-
 #google-login:hover, #facebook-login:hover {
-    background-position: bottom;
+  background-position: bottom;
 }
-
 #login-or {
-    background: url('images/login/or_title.png') no-repeat center center;
-    width: 30px;
-    height: 39px;
-    display: inline-block;
+  background: url('images/login/or_title.png') no-repeat center center;
+  width: 30px;
+  height: 39px;
+  display: inline-block;
 }
-
 #remind-box {
-    margin-top: 30px;
-    padding: 20px 30px;
+  margin-top: 30px;
+  padding: 20px 30px;
 }
-
 #remind-submit {
-    background: url('images/login/reset_button_sprite.png') no-repeat scroll top left;
-    width: 169px;
-    height: 36px;
-    border: none;
-    float: left;
+  background: url('images/login/reset_button_sprite.png') no-repeat scroll top left;
+  width: 169px;
+  height: 36px;
+  border: none;
+  float: left;
 }
-
 #remind-submit:hover {
-    background-position: bottom;
-    cursor: pointer;
+  background-position: bottom;
+  cursor: pointer;
 }
-
 #faq-link {
-    line-height: 36px;
-    float: right;
-    text-decoration: underline;
-    font-size: 14px;
+  line-height: 36px;
+  float: right;
+  text-decoration: underline;
+  font-size: 14px;
 }
-
 #twitter-canvas, #facebook-canvas {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-
 #blog-canvas a {
-    font-size: 17px;
-    font-family: "Trebuchet MS";
-    color: #757575;
-    text-decoration: none;
+  font-size: 17px;
+  font-family: "Trebuchet MS";
+  color: #757575;
+  text-decoration: none;
 }
-
 #blog-canvas a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 #blog-canvas h1 {
-    font-size: 22px;
-    font-family: "Trebuchet MS";
-    color: #e07272;
-    margin-bottom: 10px;
+  font-size: 22px;
+  font-family: "Trebuchet MS";
+  color: #e07272;
+  margin-bottom: 10px;
 }
-
 #blog-canvas .RSSPumpArticle + .RSSPumpArticle {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-
 #login-error {
-    color: red;
+  color: red;
 }
-
 /**************************************
   Tour
 **************************************/
 #page-content-tour {
-    width: 870px;
-    padding: 5px 60px 20px 60px;
+  width: 870px;
+  padding: 5px 60px 20px 60px;
 }
-
 #tour-menu li {
-    float: left;
+  float: left;
 }
 #tour-menu li + li {
-    margin-left: 65px;
+  margin-left: 65px;
 }
-
 #tour-menu a {
-    display: block;
-    color: #336699;
-    font-size: 18px;
-    font-family: Arial;
-    font-weight: bold;
-    text-align: center;
-    margin: 20px 0 40px 0;
-    font-style: italic;
+  display: block;
+  color: #336699;
+  font-size: 18px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0 40px 0;
+  font-style: italic;
 }
-
 #tour-menu a:hover, #tour-menu a.current {
-    color: #9999cc;
+  color: #9999cc;
 }
-
 #tour-screencast {
-    background: url('images/tour/screencast.png') no-repeat scroll top center;
-    min-width: 73px;
-    padding-top: 90px;
+  background: url('images/tour/screencast.png') no-repeat scroll top center;
+  min-width: 73px;
+  padding-top: 90px;
 }
-
 #tour-fun {
-    background: url('images/tour/comics.png') no-repeat scroll top center;
-    min-width: 59px;
-    padding-top: 90px;
+  background: url('images/tour/comics.png') no-repeat scroll top center;
+  min-width: 59px;
+  padding-top: 90px;
 }
-
 #tour-farm {
-    background: url('images/tour/create_farm.png') no-repeat scroll top center;
-    min-width: 125px;
-    padding-top: 90px;
+  background: url('images/tour/create_farm.png') no-repeat scroll top center;
+  min-width: 125px;
+  padding-top: 90px;
 }
-
 #tour-metrics {
-    background: url('images/tour/create_scaling_metric.png') no-repeat scroll top center;
-    min-width: 69px;
-    padding-top: 90px;
+  background: url('images/tour/create_scaling_metric.png') no-repeat scroll top center;
+  min-width: 69px;
+  padding-top: 90px;
 }
-
 #tour-mysql {
-    background: url('images/tour/configure_mysql.png') no-repeat scroll top center;
-    min-width: 96px;
-    padding-top: 90px;
+  background: url('images/tour/configure_mysql.png') no-repeat scroll top center;
+  min-width: 96px;
+  padding-top: 90px;
 }
-
 #watching-tv {
-    background: url('images/tour/man_watching_tv.png') no-repeat scroll top center;
-    height: 578px;
+  background: url('images/tour/man_watching_tv.png') no-repeat scroll top center;
+  height: 578px;
 }
-
 #watch-screencast {
-    background: url('images/tour/tv_screen_sprite.png') no-repeat scroll top left;
-    width: 296px;
-    height: 159px;
-    display: block;
-    float: left;
-    margin: 57px 0 0 93px;
+  background: url('images/tour/tv_screen_sprite.png') no-repeat scroll top left;
+  width: 296px;
+  height: 159px;
+  display: block;
+  float: left;
+  margin: 57px 0 0 93px;
 }
-
 #watch-screencast:hover {
-    background-position: bottom;
+  background-position: bottom;
 }
-
 div.comic {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
-
 /**************************************
   Pricing
 **************************************/
 @font-face {
-    font-family: MyriadBold;
-    src: url("images/pricing/fonts/MyriadPro-BoldIt.otf");
+  font-family: MyriadBold;
+  src: url("images/pricing/MyriadPro-BoldIt.otf");
 }
-
 @font-face {
-    font-family: MyriadBlack;
-    src: url("images/pricing/fonts/MyriadPro-BlackIt.otf");
+  font-family: MyriadBlack;
+  src: url("images/pricing/MyriadPro-BlackIt.otf");
 }
-
-
+#page-content.page-content-pricing {
+  width: 1000px;
+  padding: 5px 0 20px 60px;
+}
+#top-table-pricing {
+  background: url('images/pricing/top_menu.png') no-repeat scroll top left;
+  width: 886px;
+  height: 233px;
+  margin-bottom: -18px;
+  float: left;
+}
+#table-pricing {
+  border-spacing: 2px;
+  border-collapse: separate;
+  margin: 30px 4px;
+}
 #table-pricing td {
-    width: 114px;
+  width: 112px;
+  background-color: #f2f7f9;
+  font-family: MyriadBold;
+  color: #415f97;
+  font-size: 28px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 65px;
 }
-
-#row-chars td {
-    height: 125px;
+#table-pricing td.first {
+  line-height: 65px;
+  padding-left: 14px;
+  width: 182px;
+  font-family: Arial;
+  color: #516f7d;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  background-color: #E7EDF1;
 }
-
-#char-1 { background: url('images/pricing/characters/scalrman.png') no-repeat scroll top left; }
-#char-2 { background: url('images/pricing/characters/man.png') no-repeat scroll top left; }
-#char-3 { background: url('images/pricing/characters/young_man.png') no-repeat scroll top left; }
-#char-4 { background: url('images/pricing/characters/teenager.png') no-repeat scroll top left; }
-#char-5 { background: url('images/pricing/characters/boy.png') no-repeat scroll top left; }
-#char-6 { background: url('images/pricing/characters/baby.png') no-repeat scroll top left; }
-#char-1:hover { background: url('images/pricing/characters/scalrman_hover.png') no-repeat scroll top left; }
-#char-2:hover { background: url('images/pricing/characters/man_hover.png') no-repeat scroll top left; }
-#char-3:hover { background: url('images/pricing/characters/young_man_hover.png') no-repeat scroll top left; }
-#char-4:hover { background: url('images/pricing/characters/teenager_hover.png') no-repeat scroll top left; }
-#char-5:hover { background: url('images/pricing/characters/boy_hover.png') no-repeat scroll top left; }
-#char-6:hover { background: url('images/pricing/characters/baby_hover.png') no-repeat scroll top left; }
-
-
-#row-head td {
-    height: 90px;
-    background: url('images/pricing/top_menu/top_menu_1px.png') repeat-x scroll top left;
-    font-family: MyriadBold;
-    color: white;
-    font-size: 20px;
-    text-align: center;
+#table-pricing td.two-lines {
+  line-height: 24px;
+  vertical-align: top;
+  padding-top: 10px;
+  height: 55px;
 }
-
-#row-head td:hover {
-    background-image: url('images/pricing/top_menu/top_menu_1px_hover.png');
+#table-pricing td.server {
+  font-family: MyriadBold;
+  color: #e45d00;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 5px;
+  vertical-align: top;
 }
-
-td#green-arrow {
-    background: url('images/pricing/top_menu/green_arrow.png') no-repeat scroll top left;
-    width: 315px;
-    height: 114px;
+#table-pricing td.server .number {
+  font-family: MyriadBlack;
+  color: #e45d00;
+  font-size: 32px;
+  line-height: 32px;
 }
-
-
-
-
-
+#table-pricing td.server .infin {
+  font-size: 55px;
+}
+#table-pricing td.yes {
+  background: #f2f7f9 url('images/pricing/hand.png') no-repeat center center;
+}
+#table-pricing td.no {
+  background: #f2f7f9 url('images/pricing/not_supported.png') no-repeat center center;
+}
+#table-pricing td .infin {
+  font-size: 53px;
+}
+#table-pricing td.hilight {
+  background-color: #EBF2F5;
+}
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+#princing-text {
+  font-size: 20px;
+}
+#princing-text ul li {
+  margin: 5px 0;
+}
